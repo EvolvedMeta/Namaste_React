@@ -1,0 +1,29 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "learning react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvolvedMeta/Namaste_React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Yash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvolvedMeta/Namaste_React/issues"
+  },
+  "homepage": "https://github.com/EvolvedMeta/Namaste_React#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 /**
  * If we try to print heading element it will return the object
  * {type:{}, Props:{}, and so on}
