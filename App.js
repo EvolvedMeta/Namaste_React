@@ -5,12 +5,15 @@ import ReactDOM from "react-dom/client";
 const heading = React.createElement("h1", { id: "heading" }, "Namaste React");
 console.log(heading);
 
-//JSX React - is not HTML in JS, HTML-like or XML-like syntax
-//JSX (transpiled before it  reaches the JS) - PARCEL - Babel
-//JSX => React.createElement => ReactElement- JS Object => HtmlElement(render)
-
-const jsxHeading = <h1 id="heading" className="head" tabIndex={1}>Namaste React using JSX</h1>;
+const jsxHeading = (<h1 id="heading" className="head" tabIndex={5}>Namaste React using JSX</h1>)
 console.log(jsxHeading);
+
+// React Functional Component
+const HeadingComponent1 = () => { return <h1>Namaste React Functional Component</h1>};
+const HeadingComponent2 = () => <h1>Namaste React Functional Component</h1>;
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(jsxHeading);
