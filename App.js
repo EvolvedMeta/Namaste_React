@@ -10,11 +10,15 @@ console.log(jsxHeading);
 
 // React Functional Component
 const HeadingComponent1 = () => { return <h1>Namaste React Functional Component</h1>};
-const HeadingComponent2 = () => <h1>Namaste React Functional Component</h1>;
+const HeadingComponent2 = () => (
+    <div id="container">
+        <h1>Namaste React Functional Component</h1>
+    </div>
+);
 
 
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(jsxHeading);
+root.render(<HeadingComponent2/>);
 
